@@ -25,6 +25,7 @@
         <input class="search-bar" type="text" placeholder="Search" value="" />
         <button class="search-button">
           <img class="search-icon" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
         </button>
         <button class="voice-search-button">
           <img
@@ -32,13 +33,22 @@
             src="icons/voice-search-icon.svg"
             alt=""
           />
+          <div class="tooltip">With Your Voice</div>
         </button>
       </div>
       <div class="right-section">
-        <img class="upload-icon" src="icons/upload.svg" alt="" />
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+       
         <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="" />
         <div class="notifications-icon-container">
-          <img class="notifications-icon" src="icons/notifications.svg" alt="" />
+          <img
+            class="notifications-icon"
+            src="icons/notifications.svg"
+            alt=""
+          />
           <div class="notifications-count">3</div>
         </div>
         <img
@@ -50,7 +60,32 @@
     </div>
 
     <!-- SIDE BAR -->
-    <div class="sidebar">sidebar</div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="">
+        <div>Library</div>
+      </div>
+    </div>
 
     <!-- VIDEO CONTENT -->
     <div class="video-grid">
